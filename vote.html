@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="votepic.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Vote Placement</title>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1>Vote Form</h1>
+        <p>NOTE: this counts as one vote for Gianna Dior</p>
+        <form action="">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="options">Did you pay the vote fee</label>
+            <select name="options" id="options">
+                <option value="disabled selected">Select an option</option>
+                <option value="option1">Yes</option>
+                <option value="option2">No</option>
+            </select>
+
+            <label for="options"> Amout </label>
+            <select name="options" id="options">
+                <option value="disabled selected">Select an option</option>
+                <option value="option2">$25</option>
+                <option value="option2">$30</option>
+                <option value="option2">$35</option>
+                <option value="option2">$40</option>
+                <option value="option2">$45</option>
+                <option value="option2">$55</option>
+                <option value="option2">$56</option>
+                <option value="option2">$60</option>
+                <option value="option2">$75</option>
+                <option value="option2">$90</option>
+                <option value="option2">$100</option>
+            </select>
+
+            <label for="options">Which Payment method did you use?</label>
+            <select name="options" id="options">
+                <option value="disabled selected">Select an option</option>
+                <option value="option1">Bank Transfer</option>
+                <option value="option2">Gift Card</option>
+            </select>
+
+            <label for="image">Upload a screenshot of payment</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
